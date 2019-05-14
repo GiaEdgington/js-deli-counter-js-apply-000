@@ -19,7 +19,8 @@ function currentLine(line) {
       return arr.indexOf[i] + 1
       }
     var newArr = line.map(function(i){
-      return num
+      return num + i
       })
+      return newArr
     }
 }
