@@ -15,9 +15,7 @@ function currentLine(line) {
     if(line === undefined || line.length === 0){
     return "The line is currently empty."
   } else {
-    line.forEach(function (i){
-      let index = line.indexOf(i) + 1
-      return "The line is currently: " + index + "." + i
-    })
+    
+    }
   } 
 }
