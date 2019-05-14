@@ -9,5 +9,6 @@ function nowServing(katzDelizLine){
   } else {
     let currentPerson = katzDelizLine[0]
     return "Currently serving " + currentPerson + "."
-  } katzDelizLine.shift()
+    katzDelizLine.shift()
+  } 
 }
