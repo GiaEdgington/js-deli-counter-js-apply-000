@@ -16,7 +16,8 @@ function currentLine(line) {
     if(katzDelizLine === undefined || katzDelizLine.length === 0){
     return "The line is currently empty."
   } else {
-    let i = line[0]
-    return "The line is currently: " + line.indexOf(line[0] + 1) + "." +
+    line.forEach(){
+      
+    }
   } 
 }
