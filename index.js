@@ -12,4 +12,10 @@ function nowServing(katzDelizLine){
   katzDelizLine.shift()
 }
 
-function
+function currentLine(line) {
+    if(katzDelizLine === undefined || katzDelizLine.length === 0){
+    return "The line is currently empty."
+  } else {
+    return "The line is currently: " + 
+  } 
+}
