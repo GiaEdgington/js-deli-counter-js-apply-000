@@ -16,8 +16,8 @@ function currentLine(line) {
     return "The line is currently empty."
   } else {
     var newLine = []
-    var num = line.indexOf(i) + 1;
     line.forEach(function (i) {
+      var num = line.indexOf(i) + 1;
       newLine.push(num + i)
       });
     } return "The line is currently: " + newLine
