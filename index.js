@@ -15,6 +15,8 @@ function currentLine(line) {
     if(line === undefined || line.length === 0){
     return "The line is currently empty."
   } else {
-    
+    var addNumber = function(arr){
+      return arr.indexOf[i] + 1
+      }
     }
 }
