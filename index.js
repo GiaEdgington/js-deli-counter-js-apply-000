@@ -7,8 +7,7 @@ function nowServing(katzDelizLine){
   if(katzDelizLine === undefined || katzDelizLine.length === 0){
     return "There is nobody waiting to be served!"
   } else {
-    let currentPerson = katzDelizLine[0]
-    return "Currently serving " + currentPerson + "."
+    return "Currently serving " + katzDelizLine[0] + "."
     katzDelizLine.shift()
   } 
 }
