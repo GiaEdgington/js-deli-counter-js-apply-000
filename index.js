@@ -15,11 +15,11 @@ function currentLine(line) {
     if(line === undefined || line.length === 0){
     return "The line is currently empty."
   } else {
-    var addNumber = function(arr){
+    var num = function(arr){
       return arr.indexOf[i] + 1
       }
     var newArr = line.map(function(i){
-      return 
+      return num
       })
     }
 }
