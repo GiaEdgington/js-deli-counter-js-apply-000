@@ -18,7 +18,8 @@ function currentLine(line) {
     var newLine = []
     line.forEach(function (i) {
       var num = line.indexOf(i) + 1;
-      newLine.push(num + ". " + i )
+      newLine.push(num + ". " + i)
+      newLine.join(, )
       });
     } return "The line is currently: " + newLine
 }
