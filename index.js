@@ -8,6 +8,6 @@ function nowServing(katzDelizLine){
     return "There is nobody waiting to be served!"
   } else {
     let currentPerson = katzDelizLine.name[0]
-    return currentPerson
+    return "Currently serving " + currentPerson
   } katzDelizLine.splice(0,1)
 }
