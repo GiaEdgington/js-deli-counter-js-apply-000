@@ -9,5 +9,5 @@ function nowServing(katzDelizLine){
   } else {
     let currentPerson = katzDelizLine.name[0]
     return currentPerson
-  } 
+  } katzDelizLine.splice(0,1)
 }
