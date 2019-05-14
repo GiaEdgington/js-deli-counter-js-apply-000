@@ -4,7 +4,7 @@ function takeANumber(katzDelizLine, name){
 }
 
 function nowServing(katzDelizLine){
-  if(katzDelizLine.length === 0){
+  if(katzDelizLine === undefined || array.length === 0){
     return "There is nobody waiting to be served!"
   } else {
     let currentPerson = katzDelizLine.name[0]
