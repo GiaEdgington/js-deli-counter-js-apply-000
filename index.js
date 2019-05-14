@@ -20,5 +20,5 @@ function currentLine(line) {
       var num = line.indexOf(i) + 1;
       newLine.push(num + ". " + i)
       });
-    } return "The line is currently: " + newLine
+    } return "The line is currently: " + newLine.join()
 }
