@@ -15,9 +15,10 @@ function currentLine(line) {
     if(line === undefined || line.length === 0){
     return "The line is currently empty."
   } else {
+    var newLine = []
     var num = line.indexOf(i) + 1;
     line.forEach(function (i) {
-      return "The line is currently: " + num + i
+      newLine.push(num + i)
       });
-    }
+    } return "The line is currently: " + newLine
 }
