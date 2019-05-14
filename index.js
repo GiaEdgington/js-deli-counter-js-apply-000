@@ -17,5 +17,4 @@ function currentLine(line) {
   } else {
     
     }
-  } 
 }
