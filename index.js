@@ -19,7 +19,7 @@ function currentLine(line) {
     line.forEach(function (i) {
       var num = line.indexOf(i) + 1;
       newLine.push(num + ". " + i)
-      newLine.join(" ")
+      var inLine= newLine.join(", ")
       });
-    } return "The line is currently: " + newLine
+    } return "The line is currently: " + inLine
 }
