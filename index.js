@@ -18,6 +18,8 @@ function currentLine(line) {
     var addNumber = function(arr){
       return arr.indexOf[i] + 1
       }
-    var newArr = line.map
+    var newArr = line.map(function(i){
+      return 
+      })
     }
 }
