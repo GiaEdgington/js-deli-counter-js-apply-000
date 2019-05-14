@@ -13,7 +13,7 @@ function nowServing(katzDelizLine){
 }
 
 function currentLine(line) {
-    if(katzDelizLine === undefined || katzDelizLine.length === 0){
+    if(line === undefined || line.length === 0){
     return "The line is currently empty."
   } else {
     line.forEach(function (i){
